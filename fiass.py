@@ -127,8 +127,8 @@ print(tip_chain.invoke({"skill": "Python"}))
 
 # Turn LangSmith tracking ON
 os.environ["LANGSMITH_TRACING"] = "true"
-os.environ["LANGSMITH_API_KEY"] = "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"   # <-- paste your key
+os.environ["LANGSMITH_API_KEY"] = "paste your key"
 os.environ["LANGSMITH_PROJECT"] = "Tracing-app"          # runs are grouped under this name
-os.environ["OPENAI_API_KEY"] = "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"         # <-- paste your key
+os.environ["OPENAI_API_KEY"] = "ABC"         # <-- paste your key
 
 print("LangSmith is connected!")
