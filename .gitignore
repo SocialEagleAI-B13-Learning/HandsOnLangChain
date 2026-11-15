@@ -1,0 +1,13 @@
+# Secrets
+.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.venv-faiss/
+venv/
+venv312/
+
+# Local vector store
+my_store/
